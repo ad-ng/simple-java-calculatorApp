@@ -1,15 +1,26 @@
 import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
-
+        // initializing scanner so that we can receive input from user
         Scanner scanner = new Scanner(System.in);
+
+        /*
+         * welcoming user and prompting him to know which task we gonna perform
+        */
         System.out.println("welcome to the adn calculator app");
-        System.out.println("type: 1 for addition");
-        System.out.println("type: 2 for subtraction");
-        System.out.println("type: 3 for multiplication");
-        System.out.println("type: 4 for division");
+
+        //reading first number
+        System.out.println("enter the first number");
+        float firstNumber = scanner.nextFloat();
+        
+        //reading the sign
+        System.out.println("enter the sign");
         String sign = scanner.nextLine();
-        System.out.println("you have typed:" +sign);
+
+        //reading second number
+        System.out.println("enter the second number");
+        float secondNumber = scanner.nextFloat();
+
         
     }
 }
