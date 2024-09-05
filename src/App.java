@@ -15,12 +15,17 @@ public class App {
         
         //reading the sign
         System.out.println("enter the sign");
-        String sign = scanner.nextLine();
+        String sign = scanner.next();
 
         //reading second number
         System.out.println("enter the second number");
         float secondNumber = scanner.nextFloat();
-
         
+
+        if (sign.equals("+")) {
+            System.out.println(calculator.addition(firstNumber, secondNumber));
+        }
+
+        scanner.close();
     }
 }
