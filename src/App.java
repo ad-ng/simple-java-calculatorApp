@@ -34,6 +34,10 @@ public class App {
             System.out.println(calculator.multiplication(firstNumber, secondNumber));
         }
 
+        if (sign.equals("/")) {
+            System.out.println(calculator.division(firstNumber, secondNumber));
+        }
+
         scanner.close();
     }
 }
