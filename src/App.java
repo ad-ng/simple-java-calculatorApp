@@ -30,6 +30,10 @@ public class App {
             System.out.println(calculator.subtraction(firstNumber, secondNumber));
         }
 
+        if (sign.equals("x")) {
+            System.out.println(calculator.multiplication(firstNumber, secondNumber));
+        }
+
         scanner.close();
     }
 }
