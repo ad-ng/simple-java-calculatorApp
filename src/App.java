@@ -26,6 +26,10 @@ public class App {
             System.out.println(calculator.addition(firstNumber, secondNumber));
         }
 
+        if(sign.equals("-")) {
+            System.out.println(calculator.subtraction(firstNumber, secondNumber));
+        }
+
         scanner.close();
     }
 }
